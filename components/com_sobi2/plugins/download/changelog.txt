@@ -1,0 +1,43 @@
+===================================================
+= Changelog for Sigsiu Online Business Index 2 Component SOBI2
+===================================================
+= @version $Id: changelog.txt 4543 2008-10-09 11:07:30Z Radek Suski $
+= @package: Sigsiu Online Business Index 2
+===================================================
+= @author
+= Name: Sigrid & Radek Suski, Sigsiu.NET
+= Email: sobi@sigsiu.net
+= Url: http://www.sigsiu.net
+===================================================
+= @copyright Copyright (C) 2007-2009 Sigsiu.NET (http://www.sigsiu.net). All rights reserved.
+= @license see http://www.gnu.org/licenses/gpl.html GNU/GPL. You can use, redistribute this file and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation.
+===================================================
+
+
+RC 2.2
+--------------------
++ Add: German Formal language file
++ Add: Italian language file. Thanks to Pasquale Riefoli.
++ Add: Support for longer file extension (need SOBI2 RC 2.9.0.1)
+
+! Change: Support for Joomla 1.5 native
+! Change: JavaScript code moved to external file
+! Change: SUBMODAL updated to the version 1.6
+
+# Bugfix: tmeporary id generation fixed
+# Bugfix: if Joomla! installation in subdirectory
+
+
+RC 2.1 (30.12.2007)
+--------------------
+Added: Possibility to switch Upload Button off in Add Entry Form (Button Position = 0)
+Added: Database comments
+Fixed: to work with MySQL versions before 5.0.3
+Fixed: name of .htaccess file
+Fixed: pathname on Windows
+
+RC 2.0 (11.9.2007)
+--------------------
+Changed: for compatibility with SOBI2 RC2.8.0 (does not longer work with older SOBI2 versions)
+Fixed: Invalid argument supplied for foreach() download.class.php at the line: 322.
+Fixed: upload window in mambo fixed

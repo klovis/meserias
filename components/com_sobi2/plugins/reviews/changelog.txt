@@ -1,0 +1,95 @@
+===================================================
+= Changelog for Review & Rating Plugin for SOBI2
+===================================================
+= @version $Id: changelog.txt 5103 2009-05-07 16:51:29Z Sigrid Suski $
+= @package: Sigsiu Online Business Index 2
+===================================================
+= @author
+= Name: Sigrid & Radek Suski, Sigsiu.NET
+= Email: sobi@sigsiu.net
+= Url: http://www.sigsiu.net
+===================================================
+= @copyright Copyright (C) 2007 Sigsiu.NET (http://www.sigsiu.net). All rights reserved.
+= @license see http://www.gnu.org/licenses/lgpl.html GNU/LGPL. You can use, redistribute this file and/or modify it under the terms of the GNU Lesser General Public License as published by the Free Software Foundation.
+===================================================
+
+
+RC 3.1 (10.09.2009)
+------------------
+# Bugfix: Unpublished votes were counted
+# Bugfix: in Italian language file
+
+RC 3.0 (28.2.2009)
+------------------
++ Add: Complete handling of votes and reviews in entry administration
++ Add: Pagination for votes and reviews in entry administration
++ Add: Categories to ignore in Top Rated List
++ Add: Selection of real name or username to be used
++ Add: Only adding reviews possible (votes selection not shown)
++ Add: New email placeholder {entry} for the entry's title
++ Add: New front-end design
++ Add: Date format adjustable
++ Change: Review information now in plugin settings instead of language file
++ Change: Email texts now in plugin settings instead of language file 
+# Bugfix: Apostrophe in title and review caused problems while saving in back-end
+# Bugfix: Review not saved if name contains apostrophe
+# Bugfix: Unpublished votes were counted
+# Bugfix: Voting result image did not work in Joomla! 1.5 native mode
+# Bugfix: Several problems with special characters in ISO encoding (frontend and backend)
+# Bugfix: Frontend pagination to 'End' did not work
+# Bugfix: Frontend pagination 'Next' did not work under certain circumstances
+# Bugfix: Unpublished entries were shown in top rated and most reviewed list
+# Bugfix: Unpublished reviewes/votes were shown in top rated and most reviewed list
+# Bugfix: Number of votes for an entry to be shown in top rated list was wrong
+# Bugfix: Frontend check box for not showing email address did not work
+# Bugfix: Sending Emails did not work in Joomla! 1.5 native mode
+# Bugfix: URL to entry in email missed the Idemid (caused SEF problems)
+# Bugfix: Update info text will be shown again if it should
+# Bugfix: Several minor bugfixes and improvements
+
+
+RC 2.2 (11.10.2008)
+------------------
++ Add: Spanish Language file. Thanks to Rudy Palacios.
++ Add: Italian Language file. Thanks to Kykoo.it.
++ Add: French Language file.
+
+! Change: Support for Joomla! 1.5 native
+! Change: Don't cmod star-rating image dir on installation
+! Change: include path
+! Change: encodeURI to encodeURIComponent
+
+
+RC 2.1 (15.9.2007)
+------------------
+Corrected Info line and English and German texts
+Send button for reviews available again
+
+
+RC 2.0 (11.9.2007)
+------------------
+Changed for compatibility with SOBI2 RC2.8.0 (does not longer work with older SOBI2 versions)
+New ajax send method
+Pagination for reviews
+The voting result (stars) is also shown in V-Card
+Reviews listing pages rebuild using div containers
+Update info will be displayed only if any review is shown
+Only voting without review possible
+Top rated and most reviewed listing (for top rated list of SOBI2 RC2.8.0)
+Top rated list limit adjustable (for top rated list of SOBI2 RC2.8.0)
+Number of top rated and most reviewed entries adjustable (for top rated list of SOBI2 RC2.8.0)
+Formal German language file as german added
+
+
+RC 1.1 (16.01.2007)
+------------------
+Parse syntax error in reviews.class.php on line 108
+testing gif images not longer in the package
+
+
+RC 1 (5.1.2007)
+------------------
+DB Field changed from TINYINT to INT
+Update information shown only once
+Link to profile in Comunity Builder (if installed) instead of email link
+

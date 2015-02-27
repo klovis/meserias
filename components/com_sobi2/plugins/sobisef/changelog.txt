@@ -1,0 +1,96 @@
+===================================================
+= Changelog for SobiSEF Plugin for SOBI2
+===================================================
+= @version $Id: changelog.txt 5395 2010-04-09 16:50:28Z Sigrid Suski $
+= @package: Sigsiu Online Business Index 2 (Sobi2)
+===================================================
+= @author
+= Name: Sigrid & Radek Suski, Sigsiu.NET GmbH
+= Url: http://www.sigsiu.net
+===================================================
+= @copyright Copyright (C) 2007-2010 Sigsiu.NET GmbH (www.sigsiu.net). 
+= All rights reserved.
+= @license see http://www.gnu.org/licenses/old-licenses/gpl-2.0.html GNU/GPL V2. 
+= You can use, redistribute this file and/or modify it under 
+= the terms of the GNU General Public License as published 
+= by the Free Software Foundation.
+===================================================
+
+RC 1.7 (09.04.2010)
+----------------------
+! Change: Removal of functions deprecated in PHP 5.3
+! Change: Supress inital message if plugin is de-activated
+# Bugfix: After deleting URL in Manage screen, redirection to plugin manager
+
+RC 1.6 (02.09.2009)
+----------------------
+# Bugfix: RSS links not working in category view
+# Bugfix: SOBI frontpage has always main SOBI itemid now
+# Bugfix: External link are not translated back correctly
+# Bugfix: Fixed alias removal (if the rest of link contain it also)
+
+RC 1.5 (30.07.2009)
+----------------------
++ Add: Un-installation of router.php
+! Change: Default number of Queries Limit increased
+# Bugfix: Add New link does not work (blank in URL for unlinked special tasks)
+# Bugfix: Single quote can be entered in replacement and remove list
+# Bugfix: Double quote can be entered in remove list (although invalid char for entry title)
+# Bugfix: Getting itemid for wrong itemids
+# Bugfix: Determing category for entries if no category is given
+# Bugfix: Problem with only one category for an entry but the same entry is assigned to different linked categories in Joomla! menu
+
+RC 1.4 (30.06.2009)
+----------------------
+! Change: Licence changed to GPL
+# Bugfix: Problems with creating URLs
+# Bugfix: Notices removed
+# Bugfix: Additional slashes removed
+
+RC 1.3 (06.06.2009)
+----------------------
+! Change: Fit to the new SOBI2 version
+
+RC 1.2 (22.11.2008)
+----------------------
+# Bugfix: Problem if SOBI2 menu link is in sub menu
+
+RC 1.1 (10.10.2008)
+----------------------
+# Bugfix: Call to a member function loadObject() on a non-object in ssobisef.class.php on line 407
+
+RC 1 (22.9.2008)
+----------------------
++ Add: Compatibility for Joomla! 1.5 native
++ Add: Handling for RSS feeds URL
+
+# Bugfix: Error in removing component alias in URL
+# Bugfix: Missing _SOBISEF_EDIT_EXTERN label
+# Bugfix: Wrong priority while reverting SEF URL (pathway!)
+
+Beta 3.3 (7.8.2008)
+----------------------
+# Bugfix: To work also with PHP 4 - again
+
+Beta 3.3 (5.8.2008)
+----------------------
++ Add: Possibility to purge the database at once
++ Add: Switch in configuration to purge the database
+
+# Bugfix: Problem Joomla in subdirectory
+
+
+Beta 3.2 (31.7.2008)
+----------------------
+# Bugfix: Problem with cache fixed
+# Bugfix: Problem with special params (e.g FLP) fixed
+
+
+Beta 3.1 (31.7.2008)
+----------------------
+# Bugfix: To work also with PHP 4
+
+
+Beta 3 (30.7.2008)
+----------------------
+Initial Version

@@ -1,0 +1,132 @@
+
+/* Style Sheet of Reviews Plugin for SOBI 2 Component reviews.css             */
+/* Version $Id: reviews.css 4913 2009-03-01 18:35:06Z Sigrid Suski $
+/* --------------------------------------------------------------------------- */
+/* Copyright (C) 2007-2009 Sigsiu.NET (http://www.sigsiu.net). All rights reserved. */
+/* SOBI2 and SOBI Reviews and Ratings are free software; you can redistribute  */
+/* it and/or modify it under the terms of the GNU General Public License as    */
+/* published by the Free Software Foundation.                                  */
+/* Authors: Sigrid & Radek Suski, Sigsiu.NET                                   */
+
+div#revsBox {
+}
+
+/* Style for Pagination bars */
+/* ------------------------- */
+.revNavTop {
+	display: none; /* remove this to get the navigation on the top */
+	margin-left: 5px;
+}
+.revNavBottom {
+	margin-left: 5px;
+}
+
+td.sobi_review_VC {
+	padding-left: 8px;
+	text-align: left;
+}
+
+span.sobiRating {
+	display: block;
+}
+span.sobiRating img {
+	float: none;
+	vertical-align: top;
+	padding: 0px;
+	margin: 0px;
+}
+
+/* Style for Review/Vote Control */
+/* ----------------------------- */
+div#revFormCont {
+	width: 98%;
+	margin: 15px 0px 40px 5px;
+	padding-left: 4px;
+}
+table.revFormTable {
+	width: 99%;
+	padding-top: 30px;
+	padding-bottom: 10px;
+}
+table.revFormTable td#revVoteSelect{
+	width:155px;
+	text-align:right;
+	padding-bottom: 10px;
+}
+table.revFormTable td#revVotePrev {
+	padding-bottom: 10px;
+}
+table#revFormTable {
+	padding-left: 5px;
+}
+table#revFormTable td {
+	padding-right: 5px;
+}
+.revCol1 {
+	width: 80px;
+}
+.revCol2 {
+}
+
+div#revVoteSelect,
+div#revVotePrev,
+div#sendVoteBt {
+	float: left;
+	margin-left: 26px;
+}
+div#reviewBt {
+	float: left;
+}
+
+/* Style for Reviews in Details View */
+/* --------------------------------- */
+div#reviewsCont {
+	width: 98%;
+	padding: 4px 0px 4px 0px;
+	/* border: 1px solid #F4F4F4; */
+	margin: 5px 0px 5px 5px;
+}
+div.revHeaderTitle {
+	background-color: #F4F4F4;
+	border: 1px solid #F4F4F4;
+	padding: 4px 0px 4px 0px;
+}
+div.revVote {
+	float:left;
+	text-align:left;
+}
+div.revTitle {
+	float:left;
+	font-weight: bold;
+	padding-right: 6px;
+}
+div.revAuthor {
+	float:left;
+	padding-right: 5px;
+}
+div.revDate {
+	text-align:left;
+}
+
+div.revHeader {
+	padding: 3px 0px 10px 0px;
+}
+div.revText {
+}
+div#srRespContMsg {
+	margin: 5px 5px 10px 5px;
+}
+div#srRespCont,
+div.revCont {
+	margin: 5px 5px 5px 5px;
+}
+
+div.revUpdateDate,
+div.revUpdate {
+	font-weight: bold;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left:3px;
+	color: #CC0000;
+}
+

@@ -1,0 +1,27 @@
+===================================================
+= Changelog for Sigsiu Online Business Index 2 Component SOBI2
+===================================================
+= @version $Id: changelog.txt 4508 2008-10-06 10:33:37Z Radek Suski $
+= @package: Sigsiu Online Business Index 2
+===================================================
+= @author
+= Name: Sigrid & Radek Suski, Sigsiu.NET
+= Email: sobi@sigsiu.net
+= Url: http://www.sigsiu.net
+===================================================
+= @copyright Copyright (C) 2007 Sigsiu.NET (http://www.sigsiu.net). All rights reserved.
+= @license see http://www.gnu.org/licenses/lgpl.html GNU/LGPL. You can use, redistribute this file and/or modify it under the terms of the GNU Lesser General Public License as published by the Free Software Foundation.
+===================================================
+
+RC 1.1 ( 06.10.2008)
+-------------------
+# Bugfix: Missing entry owner id
+# Bugfix: Typo in English language fixed.
++ Add: French Language file added. Thanks to C�dric Pelloquin.
++ Add: Hebrew UTF-8 Language file added. Thanks to Reichman Matan.
++ Add: German UTF-8 Informel Language file added. Thanks to Willi.
+! Change: Support for Joomla 1.5 native
+
+RC 1 (14.6.2008)
+-------------------
+Initial version

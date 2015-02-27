@@ -1,0 +1,112 @@
+
+/* Style Sheet of Download Plugin for SOBI 2 Component download.css            */
+/* --------------------------------------------------------------------------- */
+/* Copyright (C) 2007 Sigsiu.NET (http://www.sigsiu.net). All rights reserved. */
+/* SOBI2 Download Plugin is free software; you can redistribute it and/or      */
+/* modify it under the terms of the GNU General Public License as published by */
+/* the Free Software Foundation.                                               */
+/* Authors: Sigrid & Radek Suski, Sigsiu.NET                                   */
+/* $Id: download.css 4542 2008-10-09 10:54:13Z Radek Suski $                  */
+
+div#license {
+	margin:15px;
+}
+div.sddUploadWindow {
+	padding: 15px;
+}
+.sd_uploadFilesBt {
+	font-weight: bold;
+	font-size: 15px;
+	padding-top: 13px;
+	padding-left: 5px;
+	color: rgb(204, 204, 204) !important;
+	padding-left: 20px;
+}
+.sd_popUpDowloadTitle {
+	display:block;
+	padding-top:20px;
+	padding-left:70px;
+	margin-bottom:30px;
+}
+.sd_licenseSelect {
+	color: rgb(255, 0, 0);
+	font-weight: bold;
+}
+.sd_selectedLicense {
+	font-weight: bold;
+	color: rgb(40, 40, 200);
+}
+.sd_licenseAgreement {
+	color: rgb(255, 0, 0);
+	font-size: 15px;
+	font-weight: bold;
+}
+/**
+ * POPUP CONTAINER STYLES
+ */
+#popupMask {
+	position: absolute;
+	z-index: 200;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	opacity: .4;
+	filter: alpha(opacity=40);
+	/* this hack is so it works in IE
+	 * I find setting the color in the css gives me more flexibility
+	 * than the PNG solution.
+	 */
+	background-color:transparent !important;
+	background-color: #333333;
+	/* this hack is for opera support
+	 * you can uncomment the background-image if you don't care about opera.
+	 * this gives you the flexibility to use any bg color that you want, instead of the png
+	 */
+	background-image/**/: url("/components/com_sobi2/plugins/download/compmaskBG.png") !important; // For browsers Moz, Opera, etc.
+	background-image:none;
+	background-repeat: repeat;
+	display:none;
+}
+#popupContainer {
+	position: absolute;
+	z-index: 201;
+	top: 0px;
+	left: 0px;
+	display:none;
+	padding: 0px;
+}
+#popupInner {
+	border: 2px solid #000000;
+	background-color: #ffffff;
+}
+
+#popupFrame {
+	margin: 0px;
+	width: 100%;
+	height: 100%;
+	position: relative;
+	z-index: 202;
+}
+#popupTitleBar {
+	background-color: #486CAE;
+	color: #ffffff;
+	font-weight: bold;
+	height: 1.3em;
+	padding: 5px;
+	border-bottom: 2px solid #000000;
+	border-top: 1px solid #78A3F2;
+	border-left: 1px solid #78A3F2;
+	border-right: 1px solid #204095;
+	position: relative;
+	z-index: 203;
+}
+#popupTitle {
+	float:left;
+	font-size: 1.1em;
+}
+#popupControls {
+	float: right;
+	cursor: pointer;
+	cursor: hand;
+}

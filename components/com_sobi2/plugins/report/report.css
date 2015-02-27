@@ -1,0 +1,33 @@
+
+/* Style Sheet of Report Listing Plugin for SOBI 2 Component reviews.css       */
+/* Version $Id: report.css 4068 2008-06-08 19:53:01Z Radek Suski $		   */
+/* --------------------------------------------------------------------------- */
+/* Copyright (C) 2007 Sigsiu.NET (http://www.sigsiu.net). All rights reserved. */
+/* SOBI2 and SOBI Reviews and Ratings are free software; you can redistribute  */
+/* it and/or modify it under the terms of the GNU General Public License as    */
+/* published by the Free Software Foundation.                                  */
+/* Authors: Sigrid & Radek Suski, Sigsiu.NET                                   */
+
+div#rlp_expl {
+	padding: 25px;
+}
+div.rlp_header {
+	padding: 10px;
+}
+div#rlp_out {
+	padding: 10px;
+}
+div.rlp_lcol {
+	float: left;
+	width: 200px;
+}
+div.rlp_rcol input, div.rlp_rcol select {
+	width: 350px;
+}
+div.rlp_row {
+	margin: 10px;
+}
+textarea#rlp_report {
+	width: 350px;
+	height: 200px;
+}
